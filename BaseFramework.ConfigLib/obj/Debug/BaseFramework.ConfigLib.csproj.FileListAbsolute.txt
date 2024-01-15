@@ -1,0 +1,8 @@
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\bin\Debug\BaseFramework.ConfigLib.dll
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\bin\Debug\BaseFramework.ConfigLib.pdb
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\bin\Debug\Newtonsoft.Json.dll
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\obj\Debug\BaseFramework.ConfigLib.csproj.AssemblyReference.cache
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\obj\Debug\BaseFramework.ConfigLib.csproj.CoreCompileInputs.cache
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\obj\Debug\BaseFramework.ConfigLib.csproj.CopyComplete
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\obj\Debug\BaseFramework.ConfigLib.dll
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ConfigLib\obj\Debug\BaseFramework.ConfigLib.pdb

@@ -1,0 +1,15 @@
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\bin\Debug\BaseFramework.ProConfigSys.dll
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\bin\Debug\BaseFramework.ProConfigSys.pdb
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.csproj.AssemblyReference.cache
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmAdminLogin.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.Properties.Resources.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.csproj.GenerateResource.cache
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.csproj.CoreCompileInputs.cache
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.dll
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.pdb
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmMain.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmProjects.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmCGAdd.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmCGUpdate.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmEquipments.resources
+J:\新阁.智能框架\.NETC#上位机智能框架VIP课程\000--【课程代码课件资料】\配置库代码参考\BaseFramework.ProConfigSys\obj\Debug\BaseFramework.ProConfigSys.FrmVariables.resources

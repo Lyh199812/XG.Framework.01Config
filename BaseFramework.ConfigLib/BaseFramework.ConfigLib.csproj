@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1E05814-D249-420C-BD5D-966119B00C87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaseFramework.ConfigLib</RootNamespace>
+    <AssemblyName>BaseFramework.ConfigLib</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\thinger.ProConfigSys\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Device\DeviceBase.cs" />
+    <Compile Include="Device\ModbusASCIIDevice.cs" />
+    <Compile Include="Device\OmronHostlinkDevice.cs" />
+    <Compile Include="Device\MelsecFXSerialDevice.cs" />
+    <Compile Include="Device\OPCUADevice.cs" />
+    <Compile Include="Device\OPCDADevice.cs" />
+    <Compile Include="Device\ModbusRTUDevice.cs" />
+    <Compile Include="Device\ModbusRTUOverTCPDevice.cs" />
+    <Compile Include="Device\ModbusTCPDevice.cs" />
+    <Compile Include="Device\OmronDevice.cs" />
+    <Compile Include="Device\MelsecDevice.cs" />
+    <Compile Include="Device\SiemensDevice.cs" />
+    <Compile Include="Group\GroupBase.cs" />
+    <Compile Include="Group\MelsecFXSerialGroup.cs" />
+    <Compile Include="Group\ModbusASCIIGroup.cs" />
+    <Compile Include="Group\OmronHostlinkGroup.cs" />
+    <Compile Include="Group\OPCUAGroup.cs" />
+    <Compile Include="Group\OPCDAGroup.cs" />
+    <Compile Include="Group\ModbusRTUOverTCPGroup.cs" />
+    <Compile Include="Group\ModbusTCPGroup.cs" />
+    <Compile Include="Group\ModbusRTUGroup.cs" />
+    <Compile Include="Group\OmronGroup.cs" />
+    <Compile Include="Group\MelsecGroup.cs" />
+    <Compile Include="Group\SiemensGroup.cs" />
+    <Compile Include="Project\Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Variable\ModbusASCIIVariable.cs" />
+    <Compile Include="Variable\OmronHostlinkVariable.cs" />
+    <Compile Include="Variable\MelsecFXSerialVariable.cs" />
+    <Compile Include="Variable\MelsecVariable.cs" />
+    <Compile Include="Variable\OPCUAVariable.cs" />
+    <Compile Include="Variable\OPCDAVariable.cs" />
+    <Compile Include="Variable\ModbusRTUOverTCPVariable.cs" />
+    <Compile Include="Variable\ModbusTCPVariable.cs" />
+    <Compile Include="Variable\ModbusRTUVariable.cs" />
+    <Compile Include="Variable\OmronVariable.cs" />
+    <Compile Include="Variable\SiemensVariable.cs" />
+    <Compile Include="Variable\VariableBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\thinger.BLL\thinger.BLL.csproj">
+      <Project>{29437EDC-E406-4DD6-8DB9-AAD8655D1D09}</Project>
+      <Name>thinger.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\thinger.Models\thinger.Models.csproj">
+      <Project>{31478CBF-FD5C-4D54-8D34-B5F813C165CE}</Project>
+      <Name>thinger.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
